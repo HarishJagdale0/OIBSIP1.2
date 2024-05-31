@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Harry's inFo</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <h1>Harry's inFo</h1>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">ABOUT</a></li>
+            <li><a href="/">CONTACT ME</a></li>
+            <li><a href="/">SERVICES</a></li>
+            <li><a href="/">PROJECTS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main website start -->
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          <h1>Hey, I'm <span class="spanClass">Harish Jagdale</span></h1>
+          <h1>I'm an Enthusiastic and passionate developer</h1>
+          <h1><span id="element"></span></h1>
+         <div class="buttons">
+            <button class="btn">Resume</button>
+            <button class="btn">GitHub</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="img3.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="secondSectionSpam">What I have been working so far..</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+         
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">Frontend Developer (2024)</div>
+            <div class="vertical-desc">
+              The as Web developer i definetily work of client side, 
+              focusing on their experience (UI). directly derived from Browser'
+              To collabrate closely designs and user Experience.
+            </div>
+         
+        </div>
+          <div class="vertical">
+            <img class="image-top" src="img4.png" alt="" />
+            <div class="vertical-title">MERN Developer (2024)</div>
+            <div class="vertical-desc">
+            A MERN stack developer must be proficient in several different technologies, 
+           including JavaScript, HTML, CSS, Node. js, MongoDB, Express, and React. As a result,
+           these experts must continuously acquire new technologies and keep up to speed with existing ones.
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-first">
+            <h3>Harry's Portfolio</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li>Contact me</li>
+              <li>About me</li>
+              <li>Experience</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+        <div class="footer-rights">
+          Copyright @ Harish Jagdale || All rights reserved.
+        </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "MERN Stack Developer",
+          "Full Stack Web Developer",
+          "Competitive programmer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
